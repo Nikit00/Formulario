@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <fieldset>
+            <legend><b>Formulario de Clientes</b></legend>
+            <br>
+            <div class="inputbox">
+                <input type="text" name="Nome" class="inputUser" required>
+                <label for="Nome" class="animacao">Nome Completo</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="email" name="Email" class="inputUser" required>
+                <label for="Email" class="animacao">Email</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="tel" name="Telefone" class="inputUser" required>
+                <label for="Telefone" class="animacao"> Telefone</label>
+            </div>
+            <br>
+            <p>Sexo:</p>
+            <div class="radios">
+                <input type="radio" name="Genero" id="sexos" value="Feminino">
+                <label for="Feminino">Feminino</label>
+                <br>
+
+                <input type="radio" name="Genero" id="sexos" value="Masculino">
+                <label for="Masculino">Masculino</label>
+                <br>
+                <input type="radio" name="Genero" id="sexos" value="Outro">
+                <label for="Outro">Outro</label>
+                <br><br>
+            </div>
+
+            <label for="Data_Nasc"><b>Data de Nascimento</b></label>
+            <input type="date" name="Data_Nasc" class="inputNasc" required>
+
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="Cidade" class="inputUser" required>
+                <label for="Cidade" class="animacao">Cidade</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="Estado" class="inputUser" required>
+                <label for="Estado" class="animacao">Estado</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="Endereco" class="inputUser" required>
+                <label for="Endereco" class="animacao">Endereço</label>
+            </div>
+            <br><br>
+            <input type="submit" id="butao" name="Enviar">
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>
